@@ -1,5 +1,5 @@
 # WestpacAssignment_Kulvinder
-Overview
+Overview:
 This repository contains the tests requested as part of the technical test from Westpac NZ.
 The tests are defined in the test/KiwiSaverCalctest.java. There are a total of 4 tests when the suite is executed.
 Config.properties - Defiened the URL and browser to be used.
