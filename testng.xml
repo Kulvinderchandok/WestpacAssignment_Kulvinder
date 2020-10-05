@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WestpacRetirementCalc">
+    <test name="TC1_ShowInfoMessageForAge">
+    <parameter name="browser" value="Chrome"/>
+         <classes>
+             <class name="com.qa.testcase.KiwiSaverCalctest"/>
+             
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->

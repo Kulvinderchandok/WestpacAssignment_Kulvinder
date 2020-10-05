@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [WestpacRetirementCalc]">
+  <test thread-count="5" name="TC1_ShowInfoMessageForAge(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.qa.testcase.KiwiSaverCalctest">
+        <methods>
+          <include name="Setup"/>
+          <include name="CloseApplication"/>
+          <include name="TC1_ShowInfoMessageForAge"/>
+        </methods>
+      </class> <!-- com.qa.testcase.KiwiSaverCalctest -->
+    </classes>
+  </test> <!-- TC1_ShowInfoMessageForAge(failed) -->
+</suite> <!-- Failed suite [WestpacRetirementCalc] -->
