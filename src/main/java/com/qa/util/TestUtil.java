@@ -8,6 +8,10 @@ import org.testng.Assert;
 
 import com.qa.base.TestBase;
 
+/**
+ * Utility class contains utilities from switching frames and page loaders.
+ */
+
 public class TestUtil extends TestBase {
 	
 	public static long Page_Load_Timeout=20;

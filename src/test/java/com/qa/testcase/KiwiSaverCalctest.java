@@ -13,6 +13,15 @@ import org.testng.annotations.Test;
 import com.qa.base.TestBase;
 import com.qa.pages.KiwiSaverCalc;
 
+/**
+ * TestNg used for runnig our test cases and have used data provider for providing data and there is before method for initialising and after method for teardown.
+ * Two user stories covered under the KiwiSaverCalcTest class.
+ * First User Story coveres the message displayed to user on clicking on information tab next to age textbox.
+ * Second user Story cover three scenarios
+ *  First is user who is employed and have parameters as Age and Salary.
+ *  Second is user who is self employeed and have parameters as age, kiwisaver balance, voluntary contribution
+ *  Third is user who is not employed and have parameters as age, kiwisaver balance, voluntary contribution and Goal Requirement.
+ */
 
 public class KiwiSaverCalctest extends TestBase{
 	

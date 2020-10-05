@@ -13,8 +13,12 @@ import com.qa.util.TestUtil;
 
 
 public class KiwiSaverCalc extends TestBase{
-	
 
+	/**
+	 * Defining locator for this page.
+	 * Initialisation of the locators
+	 * KiwiSaverCalc page has locator actions using Page Factory.
+	 */
 				
 		KiwiSaverCalc kiwisaverpage;
 		
